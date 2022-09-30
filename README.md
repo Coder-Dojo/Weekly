@@ -5,4 +5,4 @@
 
 ### Top of the Week
 
-[Här hittar du alla Tip of the Week](Tip of the Week/README.md)
+[Här hittar du alla Tip of the Week](Tip%20of%20the%20Week/README.md)
