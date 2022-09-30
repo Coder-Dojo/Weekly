@@ -1,8 +1,10 @@
-# Här samlar vi alla Tip of the Week
+# Tip of the Week
 
-## S01E01
+Här samlar vi alla Tip of the Week.
 
-`&shy;` — Silent hyphen. Använd för att radbryta långa ord i t.ex. menyer eller andra trånga utrymmen. Det fina är att ordet radbryts med bindestreck vid behov, men behövs ordet inte radbrytas visas inte bindestrecket.
+## `&shy;`
+
+Silent hyphen. Använd för att radbryta långa ord i t.ex. menyer eller andra trånga utrymmen. Det fina är att ordet radbryts med bindestreck vid behov, men behövs ordet inte radbrytas visas inte bindestrecket.
 
 ```
 // Användning
@@ -16,8 +18,8 @@ Kommunfullmäktige-
 representant
 ```
 
-## S01E02
+## `<details />` och `<summary />`
 
-`<details>` (och `<summary>`) — Använd för att toggla innehåll med endast HTML. All tillgänglighet på köpet.
+Använd för att toggla innehåll med endast HTML. All tillgänglighet på köpet.
 
 [Kodexempel här](https://codepen.io/mikaeln/pen/KKRXqEv)
