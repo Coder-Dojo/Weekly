@@ -1,7 +1,8 @@
 ### Dojo
 
 - [S01E01 - Introduction](S01E01/README.md)
-- [S01E02 - Introduction](S01E02/README.md)
+- [S01E02 - Prisma & POC Backends](S01E02/README.md)
+- [S01E03 - Abstract Syntax Trees](S01E03/README.md)
 
 ### Top of the Week
 

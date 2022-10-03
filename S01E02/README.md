@@ -1,11 +1,9 @@
 
 
-## Dragning om Abstract Syntax Trees
+## Kort dragning om API prototypande med Prisma
 
-Gick igenom hur man kan använda Abstract Syntax Trees for att automatiskt kodrefaktorera. Såkallade "codemods".
+Gick igenom hur man kan använda ett Prisma schema för att enkelt hantera migrations & skapande av client typings.
 
-- https://astexplorer.net/
-- https://ts-ast-viewer.com
-- https://github.com/facebook/jscodeshift
-- https://github.com/jesperorb/jscodeshift-typescript
-- https://ts-morph.com/
+- https://prisma.io/
+- https://supabase.com/
+- https://pocketbase.io/
