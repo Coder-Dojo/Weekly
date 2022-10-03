@@ -4,6 +4,6 @@
 - [S01E02 - Prisma & POC Backends](S01E02/README.md)
 - [S01E03 - Abstract Syntax Trees](S01E03/README.md)
 
-### Top of the Week
+### Tip of the Week
 
 [Här hittar du alla Tip of the Week](Tip%20of%20the%20Week/README.md)
