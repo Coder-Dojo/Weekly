@@ -58,3 +58,9 @@ Teknik för att få till en större klickyta, t.ex. för att kunna klicka på en
 [Se helt kodexempel för breakout click area](https://codepen.io/mikaeln/pen/oNdPmQd)
 
 Bonus-tips: top/right/bottom/left kan ersättas med `inset: 0;` men det är hyggligt nytt så kolla först stödet på [Can I Use…](https://caniuse.com/?search=inset)
+
+## event.currentTarget
+
+När man lyssnar på t.ex. `click` på ett `<a />` eller en `<button />` är det vanligt att man vill komma åt elementet för att göra något, säg toggla en klass. I stället för att använda `event.target` (som är det de flesta känner till) är det oftast säkrare att använda `event.currentTarget` eftersom `event.target` är elementet användaren klickade på — vilket inte nödvändigtvis är samma element som lyssnaren ligger på, t.ex. om du har en `<span />` som ligger inuti knappen du lyssnar efter klick på.
+
+[target vs. currentTarget-demo](https://codepen.io/mikaeln/pen/dyerbJo?editors=1010) (testa att klicka på "foo" resp. "bar" i knappen)
