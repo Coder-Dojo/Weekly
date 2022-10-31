@@ -67,8 +67,8 @@ När man lyssnar på t.ex. `click` på ett `<a />` eller en `<button />` är det
 
 ## scrollIntoView(), scroll-behavior och scroll-padding
 
-– `.scrollIntoView()` scrollar ner användaren till ett visst element.
-– `scoll-behavior: smooth` gör att scrollningen animeras. Kan t.ex. sättas på `*` i CSS för att alltid slå (se demo)
-– `scroll-padding` lägger till ett avstånd från elementet endast när det är target för en scrollning. Användbart om man t.ex. har en sticky header att ta höjd för (pun intended).
+- `.scrollIntoView()` scrollar ner användaren till ett visst element.
+- `scoll-behavior: smooth` gör att scrollningen animeras. Kan t.ex. sättas på `*` i CSS för att alltid slå (se demo)
+- `scroll-padding` lägger till ett avstånd från elementet endast när det är target för en scrollning. Användbart om man t.ex. har en sticky header att ta höjd för (pun intended).
 
 [Demo för scrolltips](https://codepen.io/mikaeln/pen/gOKpWRm)
