@@ -6,6 +6,7 @@
 - [S01E04 - Storybook](S01E04/README.md)
 - [S01E05 - Produktivitet](S01E05/README.md)
 - [S01E06 - BEM, Terminaler & Gratis hosting](S01E06/README.md)
+- [S01E07 - Vite](S01E07/README.md)
 ### Tip of the Week
 
 [Här hittar du alla Tip of the Week](Tip%20of%20the%20Week/README.md)
