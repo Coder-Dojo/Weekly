@@ -64,3 +64,11 @@ Bonus-tips: top/right/bottom/left kan ersättas med `inset: 0;` men det är hygg
 När man lyssnar på t.ex. `click` på ett `<a />` eller en `<button />` är det vanligt att man vill komma åt elementet för att göra något, säg toggla en klass. I stället för att använda `event.target` (som är det de flesta känner till) är det oftast säkrare att använda `event.currentTarget` eftersom `event.target` är elementet användaren klickade på — vilket inte nödvändigtvis är samma element som lyssnaren ligger på, t.ex. om du har en `<span />` som ligger inuti knappen du lyssnar efter klick på.
 
 [target vs. currentTarget-demo](https://codepen.io/mikaeln/pen/dyerbJo?editors=1010) (testa att klicka på "foo" resp. "bar" i knappen)
+
+## scrollIntoView(), scroll-behavior och scroll-padding
+
+– `.scrollIntoView()` scrollar ner användaren till ett visst element.
+– `scoll-behavior: smooth` gör att scrollningen animeras. Kan t.ex. sättas på `*` i CSS för att alltid slå (se demo)
+– `scroll-padding` lägger till ett avstånd från elementet endast när det är target för en scrollning. Användbart om man t.ex. har en sticky header att ta höjd för (pun intended).
+
+[Demo för scrolltips](https://codepen.io/mikaeln/pen/gOKpWRm)
